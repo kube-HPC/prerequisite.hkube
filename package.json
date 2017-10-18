@@ -1,0 +1,36 @@
+{
+  "name": "prerequisite.rf",
+  "version": "1.0.0",
+  "description": "prerequisite micro services",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha tests/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.rms:RMS-Common/Prerequisite.git"
+  },
+  "author": "maty zisserman",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "cron": "^1.1.0",
+    "mocha": "^2.3.3",
+    "mockery": "^1.4.0",
+    "sinon": "^1.17.1",
+    "uuid": "^2.0.2"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "ioredis": "^1.15.1",
+    "keepalive-service": "^1.2.3",
+    "mockery": "^1.7.0",
+    "node-schedule": "^1.1.1",
+    "redis": "^2.4.2",
+    "redis-utils": "^1.1.11",
+    "sinon": "^1.17.4"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
