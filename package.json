@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "chai": "^3.5.0",
-    "ioredis": "^1.15.1",
+    "ioredis": "^4.27.8",
     "keepalive-service": "^1.2.3",
     "mockery": "^1.7.0",
     "node-schedule": "^1.1.1",
